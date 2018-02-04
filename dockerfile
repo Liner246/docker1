@@ -5,3 +5,4 @@ RUN apt-get install -y iputils-ping
 RUN useradd admin
 
 RUN mkdir -p /var/run/sshd
+CMD "env"
